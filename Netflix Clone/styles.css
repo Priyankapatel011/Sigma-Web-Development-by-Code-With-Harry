@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+
+.main {
+    background-image: url("assets/images/background.jpg");
+    background-size: max(100vw, 1200px);
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+nav span img {
+    height: 50px;
+    width: 100px;
+    position: relative;
+    z-index: 10;
+}
+
+nav div button span img{
+    height: 20px;
+    width: 30px;
+}
+
+
+
+nav button{
+    position: relative;
+    z-index: 10;
+    /* padding: 5px 10px; */
+    margin: 20px;
+}
+
+.hero {
+    height: calc(100% - 62px) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    padding: 0 30px;
+    gap: 23px;
+}
+
+.hero> :first-child {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.hero> :last-child {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.separation {
+    background-color: rgb(52, 48, 48);
+    height: 7px;
+}
+
+.btn {
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    padding: 11px 7px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;    
+}
+
+.btn-red-sm:hover {
+    background-color: rgb(108, 9, 9);
+}
+
+.btn.lang {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+}
+.btn.lang :focus {
+    outline: none;
+}
+
+
+.main input {
+    padding: 17px 7px;
+    width: 350px;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(32, 33, 33, 0.9);
+    /* border: none; */
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.main input:focus {
+    outline: none;
+}
+
+#select {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    border: none;
+    appearance: none;
+}
+
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.first span {
+    color: white;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img{
+    width: 40vw;
+    /* position: absolute; */
+}
+
+.secImg video{
+    position: absolute;
+    top: 70px;
+    right: 63px;
+    width: 29vw;
+}
+

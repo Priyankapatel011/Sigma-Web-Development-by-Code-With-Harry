@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.box {
+    height: 88px;
+    width: 88px;
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 116px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .child{
+            background-color: red;
+            border: 2px solid black;
+            padding: 14px;
+            margin: 14px;
+            cursor: pointer;
+        }
+
+        .childContainer{
+            background-color: rgb(80, 200, 15);
+            border: 2px solid black;
+            padding: 14px;
+            margin: 14px;
+        }
+
+        .container{
+            background-color: rgb(15, 172, 200);
+            border: 2px solid black;
+            padding: 14px;
+            margin: 14px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="contain">
+        <div class="box">Hey I am a box</div>
+    </div>
+    <button id="btn">Change Content</button>
+     -->
+
+
+    <!-- event bubbling -->
+
+    <div class="container">
+        <section class="childContainer">
+            <div class="child">
+                I am a Child👶
+            </div>
+        </section>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
